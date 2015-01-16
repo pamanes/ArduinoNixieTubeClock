@@ -27,7 +27,7 @@ const int mClockPin = 9;
 //define shifts pins for hours
 const int hDataPin = 10;
 const int hLatchPin = 11;
-constint hClockPin = 12;
+const int hClockPin = 12;
 //pins for buttons
 const int hButtonPin = 3;
 const int mButtonPin = 13;
