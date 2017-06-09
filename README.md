@@ -4,4 +4,4 @@ This is the Arduino code that controls nixie tubes for a clock through shift reg
 LICENSE
 =======
 
-See COPYING.txt for the GNU GENERAL PUBLIC LICENSE
+See COPYING.txt for the MIT LICENSE
