@@ -10,7 +10,7 @@ This is the Arduino code that controls nixie tubes for a clock through shift reg
 	
 	H   H : M   M : S   S  (Nixies)
 	|   |   |   |   |   |   (Rusian Driver has 10 output pins, each lighting up a number)
-        D   D   D   D   D   D   (Russian Driver K155NA1)
+    D   D   D   D   D   D   (Russian Driver K155NA1)
 	  \/      \/      \/    (4 pins to each Russian Driver)
 	  SF3     SF2     SF1   (each shift register has 8 output pins - 74HC595)
 	  
