@@ -16,7 +16,15 @@ This is the Arduino code that controls nixie tubes for a clock through shift reg
 	  
     There are three Shift Registers, each controls two nixie tubes
 
+<img width="361" height="500" alt="image" src="https://github.com/user-attachments/assets/13a48180-b27c-493c-8b25-a7294621bb33" />
+
+<img width="361" height="500" alt="image" src="https://github.com/user-attachments/assets/10ad1899-da72-45f7-b24f-b6bcbb70bdf4" />
+
+
+
+
 LICENSE
 =======
 
 See COPYING.txt for the MIT LICENSE
+
