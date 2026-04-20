@@ -134,14 +134,11 @@ void loop()
         clock(qfalse, qtrue, qfalse);
     }
 
-    //handle reset to 0 when max unsigned long is reached (after 49 days)
-    if(((unsigned long)(currentMillis - previousMillis) >= interval) || 
-	((currentMillis < previousMillis) && ((unsigned long)(MAX - (previousMillis-1) + currentMillis) >= interval)))
-    {
-        // It's time to do something!
-        clock(qfalse, qfalse, qtrue);
-        previousMillis = currentMillis;
-    } 
+	if ((unsigned long)(currentMillis - previousMillis) >= interval)
+	{
+	    clock(qfalse, qfalse, qtrue);
+	    previousMillis = currentMillis;
+	}
 }
 //shift out
 void UpdateShiftRegister()
